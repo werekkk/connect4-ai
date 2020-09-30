@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<fx:root maxHeight="64.0" maxWidth="64.0" type="javafx.scene.layout.Pane" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle fx:id="background" arcHeight="0.0" arcWidth="0.0" fill="WHITE" height="64.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="64.0" />
+      <Circle fx:id="field" centerX="32.0" centerY="32.0" fill="WHITE" radius="30.0" stroke="#515151" strokeType="INSIDE" strokeWidth="5.0" />
+      <Label fx:id="moveCountLabel" alignment="CENTER" contentDisplay="CENTER" prefHeight="64.0" prefWidth="64.0" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Label>
+   </children>
+</fx:root>
